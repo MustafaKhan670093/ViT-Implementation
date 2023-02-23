@@ -2,8 +2,6 @@
 
 Notes and implementation of a Vision Transformer that I completed with a friend, [Aditya Mehrotra](https://github.com/AditMeh). 
 
-We repeat the experimental setup for Vision Transformers and confirm similar results. More implementation details to come. For now here are some results:
-
 ## Motivation
 
 The goal of this project was to deeply understand the [Vision Transformer paper](https://arxiv.org/abs/2010.11929). To do so, we studied the original paper and mapped out exactly what happens in the network, as shown below, and then coded it up.
