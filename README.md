@@ -12,7 +12,7 @@ The goal of this project was to deeply understand the [Vision Transformer paper]
 
 We were studying the shortcut learning phenomena that was first introduced in the [Chroma-VAE paper](https://openreview.net/pdf?id=WWVcsfI0jGH). In the figure from the paper below, you can find a summary of the experimental setup. 
 
-<img src="Images/heatmap_from_paper.png" width="600">
+<img src="Image/heatmap_from_paper.png" width="600">
 
 The interesting finding is: **The smaller the bottleneck, the more likely it is that the model only focuses on the shortcut patch. With more capacity, the model focuses on other regions of the image.**
 
@@ -22,13 +22,13 @@ After implementing the ViT, we added the shortcut to all the images of blonde ce
 
 ### ViT Performance Without Shortcut In Images
 
-<img src="Images/not_blond_without_shortcut.png" width="600">
+<img src="Image/not_blond_without_shortcut.png" width="600">
 
 
 ### ViT Performance With Shortcut In Image
 
 Then, we added the shortcut to this image and tested which of the 3 ViTs would be most robust to the shortcut. 
 
-<img src="Images/not_blonde_w_shortcut.png" width="600">
+<img src="Image/not_blonde_w_shortcut.png" width="600">
 
 Notice that all of the ViT's incorrectly classify the person as blonde as a result of the shortcut. This is a testament to the power a shortcut has on a network! However, by observing the attention maps we do see the same pattern that was identified in the other Chroma-VAE paper but for the ViT: **The smaller the ViT, the more likely it is that the model only focuses on the shortcut patch. With more capacity, the ViT focuses on other regions of the image.**
