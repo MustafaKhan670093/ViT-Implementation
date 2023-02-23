@@ -8,7 +8,7 @@ We repeat the experimental setup for Vision Transformers and confirm similar res
 
 The goal of this project was to deeply understand the [Vision Transformer paper](https://arxiv.org/abs/2010.11929). To do so, we studied the original paper and mapped out exactly what happens in the network, as shown below, and then coded it up.
 
-<img src="Images/vit_explained.png" width="600">
+<img src="Images/vit_explained.png" width="900">
 
 We were studying the shortcut learning phenomena that was first introduced in the [Chroma-VAE paper](https://openreview.net/pdf?id=WWVcsfI0jGH). In the figure from the paper below, you can find a summary of the experimental setup. 
 
