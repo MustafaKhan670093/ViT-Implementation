@@ -8,7 +8,7 @@ The goal of this project was to deeply understand the [Vision Transformer paper]
 
 <img src="Image/vit_explained.png" width="800">
 
-We were studying the shortcut learning phenomena that was first introduced in the [Chroma-VAE paper](https://openreview.net/pdf?id=WWVcsfI0jGH). In the figure from the paper below, you can find a summary of the experimental setup. 
+We were studying the shortcut learning phenomena that was first introduced in the [Chroma-VAE paper](https://openreview.net/pdf?id=WWVcsfI0jGH). In the modified figure from the paper below, you can find a summary of the experimental setup. 
 
 <img src="Image/heatmap_from_paper.png" width="900">
 
