@@ -1,6 +1,6 @@
 # Vision Transformer Implementation 
 
-Notes and implementation of a Vision Transformer that I completed with a friend, [Aditya Mehrotra](https://github.com/AditMeh). 
+Notes and implementation of a Vision Transformer that I completed with [Aditya Mehrotra](https://github.com/AditMeh). 
 
 ## Motivation
 
