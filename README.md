@@ -8,11 +8,11 @@ We repeat the experimental setup for Vision Transformers and confirm similar res
 
 The goal of this project was to deeply understand the [Vision Transformer paper](https://arxiv.org/abs/2010.11929). To do so, we studied the original paper and mapped out exactly what happens in the network, as shown below, and then coded it up.
 
-<img src="Images/vit_explained.png" width="900">
+<img src="Image/vit_explained.png" width="800">
 
 We were studying the shortcut learning phenomena that was first introduced in the [Chroma-VAE paper](https://openreview.net/pdf?id=WWVcsfI0jGH). In the figure from the paper below, you can find a summary of the experimental setup. 
 
-<img src="Image/heatmap_from_paper.png" width="600">
+<img src="Image/heatmap_from_paper.png" width="900">
 
 The interesting finding is: **The smaller the bottleneck, the more likely it is that the model only focuses on the shortcut patch. With more capacity, the model focuses on other regions of the image.**
 
